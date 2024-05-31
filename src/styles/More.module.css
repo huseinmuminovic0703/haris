@@ -1,0 +1,39 @@
+.moreContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
+  padding: 0 2rem;
+  text-align: center; 
+  height: auto
+}
+
+.backButton {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  letter-spacing: 1.2rem;
+  font-family: bold;
+  padding: 35px 45px;
+  margin-top: 35px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+  border: solid 5px #ffffff;
+}
+.backButton:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.12);
+}
+
+.text {
+  margin: 1.6rem 0; 
+  font-size: 25px;
+  max-width: 1200px; 
+  line-height: 1.6; 
+}
+.socialIconDiv {
+    margin-bottom: 6rem;
+}
