@@ -113,7 +113,7 @@ p a:hover {
 
 @media (max-width: 1350px) and (min-width: 1020px) {
   .container {
-    height: 130vh;
+    height: 150vh;
   }
 
   .mainImages {
@@ -123,11 +123,11 @@ p a:hover {
   }
 
   .h2 {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .p3 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .experience {
@@ -135,12 +135,12 @@ p a:hover {
   }
 
   .buttonExperience {
-    padding-left: 55px;
-    padding-right: 55px;
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin-top: 45px;
-    font-size: 35px;
+    font-size: 25px;
     border-radius: 50px;
 
   }
@@ -230,18 +230,4 @@ p a:hover {
     width: 30px;
     height: 30px;
   }
-}
-
-@media (max-height: 900px) and (min-height: 600px) {
-  .container {
-    height: 120vh;
-  }
-}
-
-@media (max-height: 1400px) and (min-height: 1200px) {
-  .container {
-    height: 125vh;
-  }
-
-
 }

@@ -172,12 +172,12 @@
   .aboutush1 {
     color: #ffffffd0;
     margin-top: 40px;
-    font-size: 85px;
+    font-size: 75px;
   }
 
 
   .aboutush2 {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
   .viewButton {
@@ -194,9 +194,13 @@
     height: 50px;
   }
 
+  .aboutus {
+    height: 120vh;
+  }
+
   .scrollIconView {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
   }
 }
 

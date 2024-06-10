@@ -110,8 +110,14 @@
     margin-left: 0;
   }
 
+  .singleImage img {
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+  }
+
   .imagesDiv {
-    height: 150vh;
+    height: 180vh;
   }
 
   .singleImage p {

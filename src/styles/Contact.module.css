@@ -167,24 +167,9 @@
 }
 
 
-@media (min-width: 1024px) and (max-width: 1500px) {
+@media (min-width: 651px) and (max-width: 1024px) {
   .ContactUs {
-    height: 90vh;
-  }
-    .ContactUs span {
-      color: white;
-      font-size: 30px;
-    }
-
-  .contactForm input,
-  .contactForm textarea {
-    width: 800px;
-  }
-}
-
-@media (min-width: 651px) and (max-width: 1023px) {
-  .ContactUs {
-    height: 130vh;
+    height: 150vh;
   }
 
   .ContactUs span {
@@ -259,7 +244,7 @@
 
 @media (max-width: 410px) and (min-width:400px) {
   .ContactUs {
-    height: 150vh;
+    height: 160vh;
   }
 }
 
