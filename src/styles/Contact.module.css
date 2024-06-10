@@ -8,7 +8,7 @@
   padding: 20px;
   margin-top: 20px;
   text-align: center;
-  height: 95vh;
+  height: 118vh;
 }
 
 .ContactUs h2 {
@@ -108,6 +108,7 @@
   0% {
     opacity: 0.8;
   }
+
   100% {
     opacity: 0;
   }
@@ -150,7 +151,7 @@
 }
 
 .cube.shrink {
-  animation: fadeOutColor 0.6s forwards; 
+  animation: fadeOutColor 0.6s forwards;
 }
 
 @keyframes grow {
@@ -158,6 +159,7 @@
     transform: scale(0);
     opacity: 0;
   }
+
   100% {
     transform: scale(1);
     opacity: 0.8;
@@ -165,78 +167,34 @@
 }
 
 
-@media (max-width: 1024px) {
-     .cube {
-    width: 50px;
-  height: 50px;
+@media (min-width: 1024px) and (max-width: 1500px) {
+  .ContactUs {
+    height: 90vh;
   }
-   .scrollCircleView {
-    width: 70px;
-    height: 70px;
-  }
+    .ContactUs span {
+      color: white;
+      font-size: 30px;
+    }
 
-  .scrollIconView {
-    width: 50px;
-    height: 50px;
-  }
   .contactForm input,
   .contactForm textarea {
-    background-color: black;
-    font-size: 15px;
-    margin-top: 15px;
-    width: 100%;
-    padding: 7px;
-    margin-bottom: 15px;
-    border: 2px solid #fffdfd;
-    border-radius: 5px;
+    width: 800px;
   }
+}
 
-  .ContactUs h2 {
-    margin-bottom: 30px;
-    margin-top: 60px;
-    color: #ffffffd0;
-    font-size: 90px;
-  }
-
-  .ContactUs p {
-    font-size: 1.2rem;
-    margin-bottom: 40px;
-    margin-top: 40px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    line-height: 1.47;
-    font-weight: 300;
+@media (min-width: 651px) and (max-width: 1023px) {
+  .ContactUs {
+    height: 130vh;
   }
 
   .ContactUs span {
     color: white;
-    font-size: 20px;
-  }
-
-  .viewButton {
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    letter-spacing: 0.3rem;
-    font-family: bold;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-top: 35px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    border: none;
-    cursor: pointer;
-    border-radius: 50px;
-    transition: background-color 0.3s ease;
-    border: solid 5px #ffffff;
+    font-size: 30px;
   }
 }
 
 @media (max-width: 650px) {
-   .ContactUs {
-      height: 120vh;
-}
+
   .contactForm input,
   .contactForm textarea {
     background-color: black;
@@ -247,9 +205,9 @@
     margin-bottom: 15px;
     border: 2px solid #fffdfd;
     border-radius: 5px;
-    
+
   }
- 
+
 
   .ContactUs h2 {
     margin-bottom: 30px;
@@ -290,5 +248,28 @@
     border-radius: 50px;
     transition: background-color 0.3s ease;
     border: solid 5px #ffffff;
+  }
+}
+@media (max-width: 430px) and (min-width:410px) {
+  .ContactUs {
+    height: 110vh;
+  }
+}
+
+
+@media (max-width: 410px) and (min-width:400px) {
+  .ContactUs {
+    height: 150vh;
+  }
+}
+
+@media (max-width: 390px) {
+  .ContactUs {
+    height: 120vh;
+  }
+}
+@media (max-width: 380px) and (min-width:350px) {
+  .ContactUs {
+    height: 150vh;
   }
 }

@@ -2,7 +2,7 @@
 import classes from "../styles/Reading.module.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import scrollIcon from "../images/arrowwhite.svg";
+import scrollIcon from "../images/icons/blackarrow.png";
 import { NavLink } from "react-router-dom";
 import { useEffect } from "react";
 
@@ -50,9 +50,7 @@ const ReadingComponent = () => {
           data-aos="fade-up"
         >
           <div className={classes.scrollCircle}>
-            <svg className={classes.scrollIcon} viewBox="0 0 512 512">
-              <use xlinkHref={`${scrollIcon}#Layer_1`}></use>
-            </svg>
+            <img className={classes.scrollIcon} src={scrollIcon} alt="" />
           </div>
         </div>
       </div>

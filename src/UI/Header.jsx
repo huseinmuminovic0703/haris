@@ -1,6 +1,6 @@
 import styles from "../styles/Header.module.css";
-import headerImage from "../images/realLogo.png";
-import scrollIcon from "../images/arowblack.svg";
+import headerImage from "../images/logos/WhiteLogo.png";
+import scrollIcon from "../images/icons/whitearrow.png";
 import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -61,9 +61,7 @@ const Header = () => {
           onClick={() => scrollToSection("readingComponent")}
         >
           <div className={styles.scrollCircle}>
-            <svg className={styles.scrollIcon} viewBox="0 0 512 512">
-              <use xlinkHref={scrollIcon + "#Layer_1"}></use>
-            </svg>
+          <img className={styles.scrollIcon} src={scrollIcon} alt="" />
           </div>
         </div>
          <div className={styles.backgroundCubes}>

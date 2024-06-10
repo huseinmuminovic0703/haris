@@ -1,0 +1,199 @@
+.ContactUs {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  height: 118vh;
+}
+
+.ContactUs h2 {
+  margin-bottom: 30px;
+  margin-top: 60px;
+  color: #ffffffd0;
+  font-size: 110px;
+}
+
+.contactUs span {
+  color: rgb(70, 67, 67);
+  font-size: 25px;
+}
+
+.contactUs a:hover {
+  color: blueviolet;
+}
+
+.contactUs {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.contactUs h2 {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: #151515;
+  font-family: "Karla", sans-serif;
+  letter-spacing: -0.075rem;
+  width: 100%;
+  font-size: 5em;
+  line-height: 1.125;
+  font-weight: 700;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.contactForm label {
+  font-size: 1.1rem;
+}
+
+.errorMessage {
+  color: rgb(255, 60, 0);
+  font-size: 1.1rem;
+  margin-top: 5px;
+}
+
+.errorInput {
+  border: 1px solid red;
+}
+
+.viewButton {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 24px;
+  letter-spacing: 0.5rem;
+  padding: 35px 45px;
+  margin-top: 35px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+  border: solid 5px #ffffff;
+}
+
+.viewButton:hover {
+  transform: scale(1.12);
+}
+
+.contactForm input,
+.contactForm textarea {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.contactForm input {
+  height: 30px;
+}
+
+/* Media queries for responsiveness */
+
+/* For large screens */
+@media (min-width: 1024px) and (max-width: 1500px) {
+  .ContactUs {
+    height: 90vh;
+  }
+
+  .ContactUs span {
+    color: white;
+    font-size: 30px;
+  }
+
+  .contactForm input,
+  .contactForm textarea {
+    width: 800px;
+  }
+}
+
+/* For tablets and small laptops */
+@media (min-width: 651px) and (max-width: 1023px) {
+  .ContactUs {
+    height: 130vh;
+  }
+
+  .contactUs h2 {
+    font-size: 5.5em;
+  }
+
+  .ContactUs span {
+    color: white;
+    font-size: 30px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 650px) {
+  .ContactUs {
+    height: auto;
+  }
+
+  .contactUs h2 {
+    font-size: 4.3em;
+  }
+
+  .ContactUs span {
+    color: white;
+    font-size: 20px;
+  }
+
+  .contactForm input,
+  .contactForm textarea {
+    font-size: 12px;
+    padding: 5px;
+    border: 2px solid #000000;
+  }
+
+  .viewButton {
+    font-size: 17px;
+    letter-spacing: 0.3rem;
+    padding: 25px 35px;
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 430px) and (min-width: 410px) {
+  .ContactUs {
+    height: 110vh;
+  }
+}
+
+@media (max-width: 410px) and (min-width: 400px) {
+  .ContactUs {
+    height: 150vh;
+  }
+}
+
+@media (max-width: 390px) {
+  .ContactUs {
+    height: 120vh;
+  }
+}
+
+@media (max-width: 380px) and (min-width: 350px) {
+  .ContactUs {
+    height: 150vh;
+  }
+}

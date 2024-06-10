@@ -1,0 +1,44 @@
+.socialIcons {
+  display: flex;
+  margin-top: 40px;
+}
+
+.circle {
+  margin-left: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.circle:hover {
+  transform: scale(1.12);
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 650px) {
+  .socialIcons {
+    flex-direction: row;
+    align-items: center;
+  }
+  .circle {
+    width: 60px;
+    height: 60px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    margin-left: 15px;
+  }
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+}

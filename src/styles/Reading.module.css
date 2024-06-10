@@ -4,10 +4,11 @@
   align-items: center;
   justify-content: flex-start;
   background-color: #ffffff;
-  height: 110vh;
+  height: 115vh;
   position: relative;
   width: auto;
 }
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -34,22 +35,21 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 .scrollIcon {
-  width: 60px;
-  height: 60px;
-  fill: white;
+  width: 90px;
+  height: 90px;
 }
 
 .scrollCircle:hover {
   transition: transform 0.2s ease-in-out;
   transform: scale(1.12);
 }
+
 .experience {
   margin-top: 15vh;
   display: flex;
@@ -88,6 +88,7 @@ p a {
 p a:hover {
   color: blueviolet;
 }
+
 .buttonExperience {
   background-color: black;
   color: white;
@@ -109,19 +110,12 @@ p a:hover {
 .buttonExperience:hover {
   transform: scale(1.12);
 }
-@media (max-width: 1350px) {
+
+@media (max-width: 1350px) and (min-width: 1020px) {
   .container {
-    height: 160vh;
-  }
-  .scrollCircle {
-    width: 55px;
-    height: 55px;
+    height: 130vh;
   }
 
-  .scrollIcon {
-    width: 35px;
-    height: 35px;
-  }
   .mainImages {
     width: 110px;
     height: auto;
@@ -129,88 +123,104 @@ p a:hover {
   }
 
   .h2 {
-    font-size: 50px;
+    font-size: 60px;
   }
+
   .p3 {
-    font-size: 25px;
+    font-size: 40px;
   }
+
   .experience {
     margin-top: 35vh;
   }
+
   .buttonExperience {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 45px;
+    padding-bottom: 45px;
     margin-top: 45px;
+    font-size: 35px;
+    border-radius: 50px;
+
   }
 }
-@media (max-width: 1024px) {
-     .cube {
-    width: 50px;
-  height: 50px;
-  }
-   .scrollCircle {
-    width: 70px;
-    height: 70px;
-  }
 
-  .scrollIcon {
+@media (max-width: 1020px) and (min-width: 871px) {
+  .cube {
     width: 50px;
     height: 50px;
   }
+
+  .scrollIcon {
+    width: 70px;
+    height: 70px;
+  }
 }
-@media (max-width: 870px) {
+
+@media (max-width: 870px) and (min-width: 501px) {
   .mainImages {
     width: 100px;
     height: auto;
     margin: 1.5rem;
   }
+
   .h2 {
-    font-size: 40px;
+    font-size: 50px;
   }
+
   .p3 {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
-@media (max-width: 430px) {
+
+@media (max-width: 500px) and (min-width: 315px) {
   .container {
-    height: 110vh;
+    height: 92vh;
   }
+
   .scrollIcon {
-    width: 30px;
-    height: 30px;
-  }
-  .scrollCircle {
     width: 60px;
     height: 60px;
   }
+
   .h2 {
     font-size: 40px;
   }
+
   .p3 {
     font-size: 22px;
   }
+
   .experience {
-    margin-top: 30vh;
+    margin-top: 0vh;
   }
+
   .buttonExperience {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
     margin-top: 35px;
     font-size: 17px;
   }
+
   .mainImages {
     width: 90px;
     height: auto;
     margin: 1.2rem;
   }
+
   .h2 {
     font-size: 35px;
   }
+
   .p3 {
     font-size: 17px;
   }
 }
-@media (width: 740px) {
+
+@media (max-width: 740px) and (min-width: 501px) {
   .scrollCircle {
     width: 50px;
     height: 50px;
@@ -220,4 +230,18 @@ p a:hover {
     width: 30px;
     height: 30px;
   }
+}
+
+@media (max-height: 900px) and (min-height: 600px) {
+  .container {
+    height: 120vh;
+  }
+}
+
+@media (max-height: 1400px) and (min-height: 1200px) {
+  .container {
+    height: 125vh;
+  }
+
+
 }

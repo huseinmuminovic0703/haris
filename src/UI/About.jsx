@@ -1,4 +1,4 @@
-import scrollIcon from "../images/arowblack.svg";
+import scrollIcon from "../images/icons/whitearrow.png";
 import classes from "../styles/Aboutus.module.css";
 import { NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -88,9 +88,7 @@ const About = () => {
         data-aos="fade-up"
       >
         <div className={classes.scrollCircleView}>
-          <svg className={classes.scrollIconView} viewBox="0 0 512 512">
-            <use xlinkHref={scrollIcon + "#Layer_1"}></use>
-          </svg>
+            <img src={scrollIcon} className={classes.scrollIconView} alt="" />
         </div>
       </div>
       <div className={classes.backgroundCubes}>

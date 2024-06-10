@@ -1,8 +1,8 @@
-import gif1 from "../images/gif1.gif";
-import gif2 from "../images/gif2.gif";
-import gif3 from "../images/gif3.gif";
-import gif4 from "../images/gif4.gif";
-import scrollIcon from "../images/arrowwhite.svg";
+import gif1 from "../images/gifs/gif1.gif";
+import gif2 from "../images/gifs/gif2.gif";
+import gif3 from "../images/gifs/gif3.gif";
+import gif4 from "../images/gifs/gif4.gif";
+import scrollIcon from "../images/icons/blackarrow.png";
 import classes from "../styles/Images.module.css";
 import { useEffect } from "react";
 import AOS from "aos";
@@ -34,9 +34,7 @@ const Images = () => {
       ))}
       <div onClick={() => scrollToSection("contactSec")} className={classes.scrollIndicator}>
         <div className={classes.scrollCircle}>
-          <svg className={classes.scrollIcon} viewBox="0 0 512 512">
-            <use xlinkHref={`${scrollIcon}#Layer_1`}></use>
-          </svg>
+          <img src={scrollIcon} className={classes.scrollIcon} alt="" />
         </div>
       </div>
     </div>

@@ -3,6 +3,7 @@
     transform: scale(0);
     opacity: 0;
   }
+
   100% {
     transform: scale(1);
     opacity: 0.8;
@@ -14,6 +15,7 @@
     transform: scale(1);
     opacity: 0.8;
   }
+
   100% {
     transform: scale(0);
     opacity: 0;
@@ -24,6 +26,7 @@
   0% {
     background-color: #5c5959;
   }
+
   100% {
     background-color: #00000000;
   }
@@ -72,7 +75,7 @@
   border: none;
   cursor: pointer;
   border-radius: 50px;
- transition: transform 0.3s ease-in-out, background-color 0.3s ease;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease;
   border: solid 5px #ffffff;
 }
 
@@ -91,25 +94,23 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin-top: 20px;
   margin-bottom: 5rem;
 }
 
 .scrollIconView {
-  width: 60px;
-  height: 60px;
-  fill: white;
+  width: 90px;
+  height: 90px;
 }
 
 @keyframes fadeOutColor {
   0% {
     opacity: 0.8;
   }
+
   100% {
     opacity: 0;
   }
@@ -152,7 +153,7 @@
 }
 
 .cube.shrink {
-  animation: fadeOutColor 0.6s forwards; 
+  animation: fadeOutColor 0.6s forwards;
 }
 
 @keyframes grow {
@@ -160,66 +161,62 @@
     transform: scale(0);
     opacity: 0;
   }
+
   100% {
     transform: scale(1);
     opacity: 0.8;
   }
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1350px) and (min-width: 1024px) {
   .aboutush1 {
     color: #ffffffd0;
     margin-top: 40px;
-    font-size: 80px;
-  }
-  .scrollCircleView {
-    width: 70px; 
-    height: 70px; 
+    font-size: 85px;
   }
 
-  .scrollIconView {
-    width: 50px; 
-    height: 50px; 
-  }
+
   .aboutush2 {
-    font-size: 1rem;
+    font-size: 1.7rem;
   }
+
   .viewButton {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 35px;
     margin-top: 45px;
   }
 }
-@media (max-width: 1024px) {
-     .cube {
-    width: 50px;
-  height: 50px;
-  }
-   .scrollCircleView {
-    width: 70px;
-    height: 70px;
-  }
 
-  .scrollIconView {
+@media (max-width: 1023px) and (min-width: 736px) {
+  .cube {
     width: 50px;
     height: 50px;
   }
+
+  .scrollIconView {
+    width: 70px;
+    height: 70px;
+  }
 }
 
-@media  (max-width: 735px) {
+@media (max-width: 735px) and (min-width: 501px) {
   .aboutush1 {
     color: #ffffffd0;
     margin-top: 40px;
     font-size: 65px;
   }
+
   .aboutush2 {
     font-size: 0.9rem;
   }
+
   .viewButton {
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 45px;
   }
+
   .scrollCircleView {
     width: 70px;
     height: 70px;
@@ -231,15 +228,37 @@
   }
 }
 
-
-@media  (max-width: 425px) {
+@media (max-width: 500px) and (min-width: 316px) {
   .aboutush1 {
     color: #ffffffd0;
     margin-top: 40px;
     font-size: 50px;
   }
+
   .aboutush2 {
     font-size: 0.9rem;
   }
- 
+
+  .aboutus {
+    height: 110vh;
+  }
+
+  .scrollCircleView {
+    width: 70px;
+    height: 70px;
+  }
+
+  .scrollIconView {
+    width: 50px;
+    height: 50px;
+  }
+
+  .viewButton {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    margin-top: 45px;
+  }
 }
