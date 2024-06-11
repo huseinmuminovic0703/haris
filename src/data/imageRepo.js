@@ -12,8 +12,7 @@ import image11 from "../images/2d/Screenshot_270.png";
 import image12 from "../images/2d/Screenshot_271.png";
 import image13 from "../images/2d/Screenshot_272.png";
 import image14 from "../images/2d/Screenshot_273.png";
-import image15 from "../images/2d/Screenshot_274.png";
-import image16 from "../images/2d/Screenshot_275.png";
+import image15 from "../images/2d/Screenshot_275.png";
 // ----------------------------------------------------- //
 
 // 3D images
@@ -53,20 +52,19 @@ import img33 from "../images/3d/slika33.png";
 import img34 from "../images/3d/slika34.png";
 
 export const photos2D = [
-  { id: 1, src: image1, width: 800, height: 600 },
-  { id: 3, src: image3, width: 800, height: 600 },
-  { id: 4, src: image4, width: 800, height: 600 },
-  { id: 5, src: image5, width: 800, height: 600 },
-  { id: 6, src: image6, width: 800, height: 600 },
-  { id: 7, src: image7, width: 800, height: 600 },
-  { id: 9, src: image9, width: 800, height: 600 },
-  { id: 10, src: image10, width: 800, height: 600 },
-  { id: 11, src: image11, width: 800, height: 600 },
-  { id: 12, src: image12, width: 800, height: 600 },
-  { id: 13, src: image13, width: 800, height: 600 },
-  { id: 14, src: image14, width: 800, height: 600 },
-  { id: 15, src: image15, width: 800, height: 600 },
-  { id: 16, src: image16, width: 800, height: 600 },
+  { id: 1, src: image1, width: 900, height: 600 },
+  { id: 3, src: image3, width: 900, height: 600 },
+  { id: 4, src: image4, width: 900, height: 600 },
+  { id: 5, src: image5, width: 900, height: 600 },
+  { id: 6, src: image6, width: 900, height: 600 },
+  { id: 7, src: image7, width: 900, height: 600 },
+  { id: 9, src: image9, width: 900, height: 600 },
+  { id: 10, src: image10, width: 900, height: 600 },
+  { id: 11, src: image11, width: 900, height: 600 },
+  { id: 12, src: image12, width: 900, height: 600 },
+  { id: 13, src: image13, width: 900, height: 600 },
+  { id: 14, src: image14, width: 900, height: 600 },
+  { id: 15, src: image15, width: 900, height: 600 },
 ];
 
 export const photos3D = [
