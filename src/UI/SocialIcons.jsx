@@ -19,7 +19,7 @@ const SocialIcons = () => {
         </a>
       </div>
       <div className={styles.circle} data-aos="fade-down" data-aos-delay="200">
-        <a href="https://www.instagram.com/gearmindsengineering/">
+        <a href="https://www.instagram.com/gear_minds/">
           <img
             src={instagramIcon}
             alt="Instagram Icon"
