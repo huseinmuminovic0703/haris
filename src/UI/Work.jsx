@@ -11,7 +11,7 @@ const Work = () => {
       <NavLink to={"/"}>
         <button className={styles.backButton}>BACK</button>
       </NavLink>
-      <h2 className={styles.title}>2D IMAGES</h2>
+      <h2 className={styles.title}>2D DRAWINGS</h2>
       <Album d={"2D"} workPhotos={photos2D} />
       <hr className={styles.divider} />
       <h2 className={styles.title}>3D IMAGES</h2>

@@ -2,19 +2,15 @@ import emailIcon from "../images/SocialIcons/email.png";
 import instagramIcon from "../images/SocialIcons/instagramicon.png";
 import linkedinIcon from "../images/SocialIcons/linkedin.png";
 import upworkIcon from "../images/SocialIcons/upwork.png";
-import { useEffect } from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import styles from "../styles/SocialIcons.module.css"
+import AOS from "aos";
+import "aos/dist/aos.css";
+import styles from "../styles/SocialIcons.module.css";
+AOS.init({
+  duration: 1000,
+  once:true
+});
 
 const SocialIcons = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true
-    });
-  }, []);
-
   return (
     <div className={styles.socialIcons}>
       <div className={styles.circle} data-aos="fade-down" data-aos-delay="0">
@@ -24,7 +20,11 @@ const SocialIcons = () => {
       </div>
       <div className={styles.circle} data-aos="fade-down" data-aos-delay="200">
         <a href="https://www.instagram.com/gearmindsengineering/">
-          <img src={instagramIcon} alt="Instagram Icon" className={styles.icon} />
+          <img
+            src={instagramIcon}
+            alt="Instagram Icon"
+            className={styles.icon}
+          />
         </a>
       </div>
       <div className={styles.circle} data-aos="fade-down" data-aos-delay="400">

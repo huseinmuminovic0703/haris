@@ -3,6 +3,7 @@ import PhotoAlbum from "react-photo-album";
 import { useState } from "react";
 import WorkImage from "./WorkImage";
 
+// eslint-disable-next-line react/prop-types
 const Album = ({ workPhotos , d }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(0);

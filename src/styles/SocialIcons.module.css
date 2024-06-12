@@ -3,6 +3,7 @@
   margin-top: 40px;
 }
 
+
 .circle {
   margin-left: 20px;
   width: 70px;
@@ -13,12 +14,8 @@
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease-in-out;
 }
 
-.circle:hover {
-  transform: scale(1.12);
-}
 
 .icon {
   width: 40px;
@@ -30,6 +27,7 @@
     flex-direction: row;
     align-items: center;
   }
+
   .circle {
     width: 60px;
     height: 60px;
@@ -37,6 +35,7 @@
     margin-bottom: 20px;
     margin-left: 15px;
   }
+
   .icon {
     width: 30px;
     height: 30px;

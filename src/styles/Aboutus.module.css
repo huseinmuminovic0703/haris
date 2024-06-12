@@ -105,6 +105,10 @@
   width: 90px;
   height: 90px;
 }
+.scrollCircleView:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.12);
+}
 
 @keyframes fadeOutColor {
   0% {
