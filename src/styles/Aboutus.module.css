@@ -36,26 +36,31 @@
   background-color: black;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   text-align: center;
   color: white;
-  height: 100vh;
+  height: 62.5rem;
   position: relative;
   overflow: hidden;
 }
 
 .aboutush1 {
   color: #ffffffd0;
-  margin-top: 70px;
+  margin-top: 4.375rem;
 }
 
 .aboutush2 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 1.5rem;
-  line-height: 1.55;
+  line-height: 2;
   font-weight: 400;
-  margin-top: 20px;
+  margin: 1.5rem auto;
+  padding: 1rem 2rem;
+  max-width: 80%;
+  color: #ffffffd0;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .aboutush2 span {
@@ -69,14 +74,14 @@
   font-size: 24px;
   letter-spacing: 0.5rem;
   font-family: bold;
-  padding: 35px 45px;
-  margin-top: 35px;
+  padding: 2.188rem 2.813rem;
+  margin-top: 2.5rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   border: none;
   cursor: pointer;
-  border-radius: 50px;
+  border-radius: 3.125rem;
   transition: transform 0.3s ease-in-out, background-color 0.3s ease;
-  border: solid 5px #ffffff;
+  border: solid 0.313rem #ffffff;
 }
 
 .viewButton:hover {
@@ -87,24 +92,25 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 .scrollCircleView {
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   margin-bottom: 5rem;
 }
 
 .scrollIconView {
-  width: 90px;
-  height: 90px;
+  width: 5.625rem;
+  height: 5.625rem;
 }
+
 .scrollCircleView:hover {
   transition: transform 0.2s ease-in-out;
   transform: scale(1.12);
@@ -136,8 +142,8 @@
 }
 
 .cube {
-  width: 70px;
-  height: 70px;
+  width: 4.375rem;
+  height: 4.375rem;
   background-color: #5c5959;
   opacity: 0;
   position: absolute;
@@ -172,101 +178,107 @@
   }
 }
 
-@media (max-width: 1350px) and (min-width: 1024px) {
+@media (max-width: 1200px) {
   .aboutush1 {
     color: #ffffffd0;
-    margin-top: 40px;
-    font-size: 75px;
+    margin-top: 2.5rem;
+    font-size: 4.8em;
   }
 
 
   .aboutush2 {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
   }
 
-  .viewButton {
-    padding-top: 35px;
-    padding-bottom: 35px;
-    font-size: 35px;
-    margin-top: 45px;
-  }
 }
 
-@media (max-width: 1023px) and (min-width: 736px) {
+@media (max-width: 1024px) {
   .cube {
-    width: 50px;
-    height: 50px;
-  }
-
-  .aboutus {
-    height: 120vh;
-  }
-
-  .scrollIconView {
-    width: 90px;
-    height: 90px;
-  }
-}
-
-@media (max-width: 735px) and (min-width: 501px) {
-  .aboutush1 {
-    color: #ffffffd0;
-    margin-top: 40px;
-    font-size: 65px;
+    width: 3.6rem;
+    height: 3.6rem;
   }
 
   .aboutush2 {
-    font-size: 0.9rem;
-  }
-
-  .viewButton {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 45px;
-  }
-
-  .scrollCircleView {
-    width: 70px;
-    height: 70px;
-  }
-
-  .scrollIconView {
-    width: 50px;
-    height: 50px;
-  }
-}
-
-@media (max-width: 500px) and (min-width: 316px) {
-  .aboutush1 {
-    color: #ffffffd0;
-    margin-top: 40px;
-    font-size: 50px;
-  }
-
-  .aboutush2 {
-    font-size: 0.9rem;
+    font-size: 1.20rem;
   }
 
   .aboutus {
-    height: 110vh;
-  }
-
-  .scrollCircleView {
-    width: 70px;
-    height: 70px;
-  }
-
-  .scrollIconView {
-    width: 50px;
-    height: 50px;
+    height: 60rem
   }
 
   .viewButton {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-    font-size: 20px;
-    margin-top: 45px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+  }
+
+  .scrollIconView {
+    width: 5.625rem;
+    height: 5.625rem;
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cube {
+    width: 3.6rem;
+    height: 3.6rem;
+
+  }
+
+  .aboutus {
+    height: 60rem;
+  }
+
+  .aboutush1 {
+    color: #ffffffd0;
+    font-size: 4.063rem;
+  }
+
+  .aboutush2 {
+    font-size: 1.2rem;
+
+  }
+
+  .viewButton {
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
+  }
+
+
+  .scrollIconView {
+    width: 4.375rem;
+    height: 4.375rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutus {
+    height: 70rem;
+  }
+
+  .aboutush1 {
+    color: #ffffffd0;
+    margin-top: 2.5rem;
+    font-size: 3.125rem;
+  }
+
+  .aboutush2 {
+    font-size: 1.1rem;
+  }
+
+  .scrollIconView {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .viewButton {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 }

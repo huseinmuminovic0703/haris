@@ -5,23 +5,23 @@
   flex-direction: column;
   position: relative;
   align-items: center;
-  padding: 20px;
-  margin-top: 20px;
+  padding: 1.25rem;
+  margin-top: 1.25rem;
   text-align: center;
-  height: 118vh;
+  height: 75rem
 }
 
 .ContactUs h2 {
-  margin-bottom: 30px;
-  margin-top: 60px;
+  margin-bottom: 1.875rem;
+  margin-top: 3.75rem;
   color: #ffffffd0;
-  font-size: 110px;
+  font-size: 6.875rem;
 }
 
 .text {
   font-size: 1.5rem;
-  margin-bottom: 40px;
-  margin-top: 40px;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   line-height: 1.57;
@@ -30,7 +30,7 @@
 
 .ContactUs span {
   color: white;
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 
 .ContactUs a {
@@ -46,7 +46,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 600px;
+  max-width: 37.5rem;
 }
 
 .contactForm label {
@@ -56,7 +56,7 @@
 .errorMessage {
   color: rgb(255, 60, 0);
   font-size: 1.1rem;
-  margin-top: 5px;
+  margin-top: 0.313rem;
 }
 
 .errorInput {
@@ -66,20 +66,20 @@
 .viewButton {
   background-color: black;
   color: white;
-  font-size: 24px;
+  font-size: 1.5rem;
   letter-spacing: 0.5rem;
   font-family: bold;
-  padding-left: 45px;
-  padding-right: 45px;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  margin-top: 35px;
+  padding-left: 2.813rem;
+  padding-right: 2.813rem;
+  padding-top: 2.188rem;
+  padding-bottom: 2.188rem;
+  margin-top: 2.188rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   border: none;
   cursor: pointer;
   border-radius: 50px;
   transition: background-color 0.3s ease;
-  border: solid 5px #ffffff;
+  border: solid 0.313rem #ffffff;
 }
 
 .viewButton:hover {
@@ -91,17 +91,17 @@
 .contactForm textarea {
   background-color: black;
   color: white;
-  font-size: 20px;
-  margin-top: 15px;
+  font-size: 1.25rem;
+  margin-top: 0.938rem;
   width: 100%;
   padding: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 0.938rem;
   border: 1px solid #fffdfd;
-  border-radius: 5px;
+  border-radius: 0.313rem
 }
 
 .contactForm input {
-  height: 30px;
+  height: 1.875rem;
 }
 
 @keyframes fadeOutColor {
@@ -167,94 +167,84 @@
 }
 
 
-@media (min-width: 651px) and (max-width: 1024px) {
+@media (max-width: 1200px) {
   .ContactUs {
-    height: 150vh;
+    height: 78rem;
+  }
+
+  .ContactUs h2 {
+    font-size: 5.5em;
   }
 
   .ContactUs span {
-    color: white;
-    font-size: 30px;
+    font-size: 1.5rem;
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1024px) {
+  .ContactUs {
+    height: 72rem
+  }
+
+  .cube {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+
+  .ContactUs h2 {
+    font-size: 5.3em;
+  }
+
+  .ContactUs span {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .ContactUs {
+    height: 68rem;
+  }
 
   .contactForm input,
   .contactForm textarea {
     background-color: black;
-    font-size: 12px;
-    margin-top: 15px;
+    font-size: 0.938rem;
+    margin-top: 0.938rem;
     width: 100%;
-    padding: 5px;
-    margin-bottom: 15px;
-    border: 2px solid #fffdfd;
-    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 0.938rem;
+    border: 0.125rem solid #fffdfd;
+    border-radius: 0.313rem;
 
   }
 
 
   .ContactUs h2 {
-    margin-bottom: 30px;
-    margin-top: 60px;
-    color: #ffffffd0;
+    margin-bottom: 1.875rem;
+    margin-top: 4.375rem;
     font-size: 70px;
   }
 
-  .ContactUs p {
-    font-size: 1.1rem;
-    margin-bottom: 40px;
-    margin-top: 40px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    line-height: 1.47;
-    font-weight: 300;
-  }
-
   .ContactUs span {
-    color: white;
-    font-size: 17px;
+    font-size: 1.375rem;
   }
 
   .viewButton {
-    background-color: black;
-    color: white;
-    font-size: 17px;
-    letter-spacing: 0.3rem;
-    font-family: bold;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-top: 35px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    border: none;
-    cursor: pointer;
-    border-radius: 50px;
-    transition: background-color 0.3s ease;
-    border: solid 5px #ffffff;
-  }
-}
-@media (max-width: 430px) and (min-width:410px) {
-  .ContactUs {
-    height: 110vh;
+    font-size: 1.063rem;
+    padding-left: 2.188rem;
+    padding-right: 2.188rem;
+    padding-top: 1.563rem;
+    padding-bottom: 1.563rem;
+    margin-top: 2.188rem;
   }
 }
 
-
-@media (max-width: 410px) and (min-width:400px) {
-  .ContactUs {
-    height: 160vh;
+@media (max-width: 480px) {
+  .ContactUs span {
+    font-size: 1.35rem;
   }
-}
 
-@media (max-width: 390px) {
   .ContactUs {
-    height: 120vh;
-  }
-}
-@media (max-width: 380px) and (min-width:350px) {
-  .ContactUs {
-    height: 150vh;
+    height: 70rem;
   }
 }

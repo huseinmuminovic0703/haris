@@ -53,42 +53,28 @@ const About = () => {
         Who we are
       </h1>
       <h2 className={classes.aboutush2} data-aos="fade-in">
-        <span>
-          Welcome to the captivating world of cutting-edge creativity, where
-          imagination knows no bounds!
-        </span>
-        <span>
-          At GearMinds Engineering, we are not just another 3D design agency; we
-          are the vanguards of innovation,
-        </span>
-        <span>
-          pushing the boundaries of what is possible in the realm of
-          three-dimensional artistry.
-        </span>
-        <span>
-          In an era defined by stunning visuals and immersive experiences, our
-          agency stands tall as a beacon of
-        </span>
-        <span>
-          unparalleled expertise and unwavering passion. We exist to transform
-          ideas into tangible realities, bringing
-        </span>
-        <span>
-          concepts to life with meticulous precision and artistic flair.
-        </span>
-        <NavLink data-aos="zoom-in" to={"/more"}>
-          <button onClick={scrollTheButton} className={classes.viewButton}>
-            VIEW MORE
-          </button>
-        </NavLink>
+        Welcome to the captivating world of cutting-edge creativity, where
+        imagination knows no bounds! At GearMinds Engineering, we are not just
+        another 3D design agency; we are the vanguards of innovation,pushing the
+        boundaries of what is possible in the realm of three-dimensional
+        artistry. In an era defined by stunning visuals and immersive
+        experiences, our agency stands tall as a beacon of unparalleled
+        expertise and unwavering passion. We exist to transform ideas into
+        tangible realities, bringing concepts to life with meticulous precision
+        and artistic flair.
       </h2>
+      <NavLink data-aos="zoom-in" to={"/more"}>
+        <button onClick={scrollTheButton} className={classes.viewButton}>
+          VIEW MORE
+        </button>
+      </NavLink>
       <div
         onClick={() => scrollToSection("imagesSec")}
         className={classes.scrollIndicatorView}
         data-aos="fade-up"
       >
         <div className={classes.scrollCircleView}>
-            <img src={scrollIcon} className={classes.scrollIconView} alt="" />
+          <img src={scrollIcon} className={classes.scrollIconView} alt="" />
         </div>
       </div>
       <div className={classes.backgroundCubes}>

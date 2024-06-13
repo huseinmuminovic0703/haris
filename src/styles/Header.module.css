@@ -4,7 +4,7 @@
 
 header {
   background-color: rgb(10, 10, 10);
-  height: 100vh;
+  height: 62.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,8 +17,8 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 150px;
-  width: 240px;
+  height: 9.3rem;
+  width: 15rem;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -27,7 +27,7 @@ header {
 }
 
 .p1 {
-  margin-top: 60px;
+  margin-top: 3.75rem;
   text-transform: uppercase;
   color: #ffffff;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -44,7 +44,7 @@ h1 {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 3.125rem;
   line-height: 1.2;
 }
 
@@ -54,7 +54,7 @@ span {
 }
 
 .p2 {
-  margin-top: 50px;
+  margin-top: 3.125rem;
   color: #ffffff;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -71,8 +71,8 @@ span {
 }
 
 .scrollCircle {
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   display: inline-flex;
   justify-content: center;
@@ -81,8 +81,8 @@ span {
 }
 
 .scrollIcon {
-  width: 90px;
-  height: 90px;
+  width: 5.625rem;
+  height: 5.625rem;
 }
 
 .scrollCircle:hover {
@@ -116,8 +116,8 @@ span {
 }
 
 .cube {
-  width: 70px;
-  height: 70px;
+  width: 4.375rem;
+  height: 4.375rem;
   background-color: #5c5959;
   opacity: 0;
   position: absolute;
@@ -152,34 +152,46 @@ span {
   }
 }
 
-@media (max-width: 1350px) and (min-width: 800px) {
+@media (max-width:1200px) {
   h1 {
-    font-size: 5.9rem;
+    font-size: 5.5rem;
   }
 
   .p2 {
-    font-size: 2rem;
-  }
-}
-
-@media (max-width: 800px) and (min-width: 621px) {
-  h1 {
-    font-size: 4.8rem;
-  }
-
-  .p2 {
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 621px) and (min-width: 315px) {
-  header {
-    height: 120vh;
+    font-size: 1.4rem;
   }
 
   .headerImage {
-    width: 180px;
-    height: 125px;
+    height: 8.5rem;
+    width: 14rem;
+
+  }
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 5.2rem;
+  }
+
+  .p2 {
+    font-size: 1.3rem;
+  }
+
+  .cube {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cube {
+    width: 3.6rem;
+    height: 3.6rem;
+
+  }
+
+  header {
+    height: 50rem;
   }
 
   h1 {
@@ -187,28 +199,50 @@ span {
   }
 
   .p2 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
 
   .scrollIcon {
-    width: 50px;
-    height: 50px;
+    width: 4.375rem;
+    height: 4.375rem;
   }
 
   .scrollIndicator {
-    bottom: 10px;
+    bottom: 1.875rem;
   }
 }
 
-@media (max-height: 1000px) and (min-height: 850px) {
-  header {
-    height: 95vh;
-  }
-}
+@media (max-width: 480px) {
+  .cube {
+    width: 3.5rem;
+    height: 3.5rem;
 
-@media (max-height: 1400px) and (min-height: 1200px) {
-  header {
-    height: 85vh;
   }
 
+  .headerImage {
+    height: 8rem;
+    width: 13rem;
+
+  }
+
+  header {
+    height: 40rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .p2 {
+    font-size: 1rem;
+  }
+
+  .scrollIcon {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .scrollIndicator {
+    bottom: 1.3rem;
+  }
 }
